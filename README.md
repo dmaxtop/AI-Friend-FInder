@@ -151,7 +151,7 @@ The **Join AI Friend Finder** page lets new users create an account.
 
 ### Sign In
 
-![Sign In](screenshots/Screenshot-2025-12-05-172730.jpg)
+![Sign In](Ai Friend Finder Snaps/Screenshot-2025-12-05-172730.jpg)
 
 The sign in screen welcomes returning users.
 
