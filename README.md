@@ -3,7 +3,7 @@
 AI Friend Finder is a MERN‑stack web application that uses AI‑based matching to help users discover compatible friends based on interests, lifestyle, and location.
 
 ---
-- [Screens and User Flows](#screens-and-user-flows) CLick Here to see the project screenshots
+- [Screens and User Flows](#screens-and-user-flows) Click Here to see the project screenshots
 
 
 
