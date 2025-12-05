@@ -44,7 +44,7 @@ AI Friend Finder is a MERN‑stack web application that uses AI‑based matching
 
 ## Tech Stack
 
-- **Frontend:** React (Vite / CRA), HTML5, CSS / Tailwind (adapt to your actual setup).
+- **Frontend:** React (Vite) , HTML5, CSS .
 - **Backend:** Node.js, Express.js.
 - **Database:** MongoDB (Mongoose for ORM).
 - **Architecture:** MVC pattern with separate layers for models, controllers, and services.
