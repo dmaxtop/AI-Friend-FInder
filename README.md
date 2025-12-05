@@ -7,34 +7,6 @@ AI Friend Finder is a MERN‑stack web application that uses AI‑based matching
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Screenshot Profile 4](screenshots/Screenshot%20Profile%204.png)
-
-![Screenshot Profile 5](screenshots/Screenshot%20Profile%205.png)
-
-![Screenshot Profile 6](screenshots/Screenshot%20Profile%206.png)
-
-![Screenshot dashboard](screenshots/Screenshot%20dashboard.png)
-
-![Screenshot discover](screenshots/Screenshot%20discover.png)
-
-![Screenshot friend finder details 2](screenshots/Screenshot%20friend%20finder%20details%202.png)
-
-![Screenshot profile 2](screenshots/Screenshot%20profile%202.png)
-
 ## Table of Contents
 
 - [Features](#features)
@@ -54,7 +26,6 @@ AI Friend Finder is a MERN‑stack web application that uses AI‑based matching
   - [Compatibility Breakdown](#compatibility-breakdown)
 - [AI Matching Logic](#ai-matching-logic)
 - [Future Improvements](#future-improvements)
-- [How to View Screenshots on GitHub](#how-to-view-screenshots-on-github)
 
 ---
 
@@ -195,7 +166,7 @@ The sign in screen welcomes returning users.
 
 ### Dashboard
 
-![Dashboard](screenshots/Screenshot-dashboard.jpg)
+![Screenshot dashboard](screenshots/Screenshot%20dashboard.png)
 
 The **AI Friend Finder Dashboard** is the main hub.
 
@@ -244,7 +215,7 @@ Each group is separated into clear cards to make editing simple.
 
 #### Lifestyle Tab
 
-![Screenshot Profile 3](screenshots/Screenshot%20Profile%203.png)
+![Screenshot Profile 2](screenshots/Screenshot%20Profile%202.png)
 
 The lifestyle section lets users define how they live.
 
@@ -258,7 +229,7 @@ The lifestyle section lets users define how they live.
 
 #### Preferences Tab
 
-![Preferences](screenshots/Screenshot-Profile-3.jpg)
+![Screenshot Profile 3](screenshots/Screenshot%20Profile%203.png)
 
 The preferences section controls how the AI understands the user’s likes.
 
@@ -272,7 +243,7 @@ The preferences section controls how the AI understands the user’s likes.
 
 #### Privacy & Security Tab
 
-![Privacy & Security](screenshots/Screenshot-Profile-4.jpg)
+![Screenshot Profile 4](screenshots/Screenshot%20Profile%204.png)
 
 Users can adjust how visible and secure their account is.
 
@@ -287,7 +258,7 @@ Users can adjust how visible and secure their account is.
 
 #### Notifications Tab
 
-![Notifications](screenshots/Screenshot-Profile-5.jpg)
+![Screenshot Profile 5](screenshots/Screenshot%20Profile%205.png)
 
 Notification preferences define what alerts a user receives.
 
@@ -302,7 +273,7 @@ Notification preferences define what alerts a user receives.
 
 #### Account Tab
 
-![Account](screenshots/Screenshot-Profile-6.jpg)
+![Screenshot Profile 6](screenshots/Screenshot%20Profile%206.png)
 
 The account tab summarizes account‑level information.
 
