@@ -18,12 +18,12 @@ AI Friend Finder is a MERN‑stack web application that uses AI‑based matching
   - [Sign Up](#sign-up)
   - [Sign In](#sign-in)
   - [Dashboard](#dashboard)
-  - [Profile Overview](#profile-overview)
-  - [Edit Profile Sections](#edit-profile-sections)
   - [Discovery Page](#discovery-page)
   - [Friend Finder Swiping](#friend-finder-swiping)
   - [Friend Details](#friend-details)
   - [Compatibility Breakdown](#compatibility-breakdown)
+  - [Profile Overview](#profile-overview)
+  - [Edit Profile Sections](#edit-profile-sections)
 - [AI Matching Logic](#ai-matching-logic)
 - [Future Improvements](#future-improvements)
 
@@ -176,7 +176,94 @@ The **AI Friend Finder Dashboard** is the main hub.
 - The footer indicates that the project is built with the MERN stack and MVC architecture.
 
 ---
+### Discovery Page
 
+![Screenshot discover](screenshots/Screenshot%20discover.png)
+
+The **Discover Your Perfect Friends** page introduces AI‑powered discovery tools.
+
+- **Find People Nearby:** discover users in your area.
+- **AI Personality Match:** match based on traits and interests.
+- **Local Events & Activities:** find meetups and events.
+- **Interest Groups:** join groups based on shared hobbies.
+- **Explore New Interests:** discover new hobbies.
+- **Friendship Events:** curated events for making friends.
+
+A **Start Finding Friends** button takes the user into the actual friend finder.
+
+---
+
+### Friend Finder Swiping
+
+![Screenshot Compatibility page](screenshots/Screenshot%20Compatibility%20page.png)
+
+The main friend finder page displays swipeable cards.
+
+- Title: “Discover Your Perfect Friend”.
+- The app shows top AI‑matched results with a compatibility percentage.
+- Each card displays:
+  - Profile image.
+  - Name and age.
+  - Location.
+  - About me text.
+  - Occupation.
+  - Interests.
+  - “Things I Love”.
+  - A **compatibility bar** with percentage.
+- Buttons:
+  - **Red X** – pass (skip this profile).
+  - **Green Heart** – like (send interest).
+  - **View More Details** – open full profile modal.
+
+---
+
+### Friend Details
+
+![Screenshot Friend finder Details 1](screenshots/Screenshot%20Friend%20finder%20Details%201.png)
+
+The detailed profile modal of a potential friend includes:
+
+- Name, age, and location at the top.
+- Overall compatibility percentage.
+- Short summary of:
+  - Location.
+  - Profession.
+  - Education.
+  - Match score.
+- “About” section with a short self‑description.
+- Button to **Connect** with the user.
+
+![Screenshot friend finder details 2](screenshots/Screenshot%20friend%20finder%20details%202.png)
+
+The extended view shows:
+
+- **Interests & Passions:** colored tags for hobbies (e.g., movies, board games, cooking, language learning).
+- **Favorites:** things they love (e.g., Pitha‑Puli, rainy days, Rabindra Sangeet) and “Not My Thing” tags (e.g., traffic jam, crowded places).
+- **Why You’re Compatible:** cards that break down:
+  - Interest similarity.
+  - Location proximity.
+  - Age compatibility.
+  - Occupation alignment.
+  - Bio similarity.
+
+---
+
+##Friend Finder Dashboard
+![Screenshot Friend Finder Page](screenshots/Screenshot%20Friend%20Finder%20Page.png)
+
+## AI Matching Logic
+
+The compatibility score is computed by combining several factors:
+
+- **Interest Similarity:** compares overlapping interests and “Things I Love”.
+- **Location Proximity:** checks whether users share the same city or are geographically close.
+- **Age Compatibility:** rewards small age differences and penalizes large gaps.
+- **Occupation Alignment:** checks for similar roles or study areas.
+- **Bio Similarity:** basic text similarity on the “About Me” fields (e.g., using keyword overlap or cosine similarity on embeddings).
+
+A weighted formula then converts these components into a single percentage that is displayed on both the swipe card and the details page.
+
+---
 ### Profile Overview
 
 ![Screenshot Profile 1](screenshots/Screenshot%20Profile%201.png)
@@ -283,91 +370,7 @@ The account tab summarizes account‑level information.
 
 ---
 
-### Discovery Page
 
-![Discovery Page](screenshots/Screenshot-discover.jpg)
-
-The **Discover Your Perfect Friends** page introduces AI‑powered discovery tools.
-
-- **Find People Nearby:** discover users in your area.
-- **AI Personality Match:** match based on traits and interests.
-- **Local Events & Activities:** find meetups and events.
-- **Interest Groups:** join groups based on shared hobbies.
-- **Explore New Interests:** discover new hobbies.
-- **Friendship Events:** curated events for making friends.
-
-A **Start Finding Friends** button takes the user into the actual friend finder.
-
----
-
-### Friend Finder Swiping
-
-![Screenshot Compatibility page](screenshots/Screenshot%20Compatibility%20page.png)
-
-The main friend finder page displays swipeable cards.
-
-- Title: “Discover Your Perfect Friend”.
-- The app shows top AI‑matched results with a compatibility percentage.
-- Each card displays:
-  - Profile image.
-  - Name and age.
-  - Location.
-  - About me text.
-  - Occupation.
-  - Interests.
-  - “Things I Love”.
-  - A **compatibility bar** with percentage.
-- Buttons:
-  - **Red X** – pass (skip this profile).
-  - **Green Heart** – like (send interest).
-  - **View More Details** – open full profile modal.
-
----
-
-### Friend Details
-
-![Screenshot Friend Finder Page](screenshots/Screenshot%20Friend%20Finder%20Page.png)
-
-The detailed profile modal of a potential friend includes:
-
-- Name, age, and location at the top.
-- Overall compatibility percentage.
-- Short summary of:
-  - Location.
-  - Profession.
-  - Education.
-  - Match score.
-- “About” section with a short self‑description.
-- Button to **Connect** with the user.
-
-![Screenshot Friend finder Details 1](screenshots/Screenshot%20Friend%20finder%20Details%201.png)
-
-The extended view shows:
-
-- **Interests & Passions:** colored tags for hobbies (e.g., movies, board games, cooking, language learning).
-- **Favorites:** things they love (e.g., Pitha‑Puli, rainy days, Rabindra Sangeet) and “Not My Thing” tags (e.g., traffic jam, crowded places).
-- **Why You’re Compatible:** cards that break down:
-  - Interest similarity.
-  - Location proximity.
-  - Age compatibility.
-  - Occupation alignment.
-  - Bio similarity.
-
----
-
-## AI Matching Logic
-
-The compatibility score is computed by combining several factors:
-
-- **Interest Similarity:** compares overlapping interests and “Things I Love”.
-- **Location Proximity:** checks whether users share the same city or are geographically close.
-- **Age Compatibility:** rewards small age differences and penalizes large gaps.
-- **Occupation Alignment:** checks for similar roles or study areas.
-- **Bio Similarity:** basic text similarity on the “About Me” fields (e.g., using keyword overlap or cosine similarity on embeddings).
-
-A weighted formula then converts these components into a single percentage that is displayed on both the swipe card and the details page.
-
----
 
 ## Future Improvements
 
