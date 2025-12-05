@@ -137,8 +137,7 @@ utils/
 
 ## Screens and User Flows
 
-All screenshots should be placed inside a `/screenshots` folder in the root of your project so that GitHub can display them.
-
+All screenshots are placed inside the `/screenshots` folder in the root.
 ### Sign Up
 
 ![Screenshot 2Signup Page](screenshots/Screenshot%202Signup%20Page.png)
