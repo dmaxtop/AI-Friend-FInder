@@ -5,21 +5,21 @@ AI Friend Finder is a MERN‑stack web application that uses AI‑based matching
 ---
 ##Snaps
 
-![Edit Section](screenshots/Edit%20Section.png)
 
-![Screenshot 2025-12-05 172730](screenshots/Screenshot%202025-12-05%20172730.png)
 
-![Screenshot 2Signup Page](screenshots/Screenshot%202Signup%20Page.png)
 
-![Screenshot Compatibility page](screenshots/Screenshot%20Compatibility%20page.png)
 
-![Screenshot Friend Finder Page](screenshots/Screenshot%20Friend%20Finder%20Page.png)
 
-![Screenshot Friend finder Details 1](screenshots/Screenshot%20Friend%20finder%20Details%201.png)
 
-![Screenshot Profile 1](screenshots/Screenshot%20Profile%201.png)
 
-![Screenshot Profile 3](screenshots/Screenshot%20Profile%203.png)
+
+
+
+
+
+
+
+
 
 ![Screenshot Profile 4](screenshots/Screenshot%20Profile%204.png)
 
@@ -170,7 +170,7 @@ All screenshots should be placed inside a `/screenshots` folder in the root of y
 
 ### Sign Up
 
-![Sign Up](screenshots/Screenshot-2Signup-Page.jpg)
+![Screenshot 2Signup Page](screenshots/Screenshot%202Signup%20Page.png)
 
 The **Join AI Friend Finder** page lets new users create an account.
 
@@ -182,7 +182,7 @@ The **Join AI Friend Finder** page lets new users create an account.
 
 ### Sign In
 
-![Sign In](Ai Friend Finder Snaps/Screenshot-2025-12-05-172730.jpg)
+![Screenshot 2025-12-05 172730](screenshots/Screenshot%202025-12-05%20172730.png)
 
 The sign in screen welcomes returning users.
 
@@ -208,7 +208,7 @@ The **AI Friend Finder Dashboard** is the main hub.
 
 ### Profile Overview
 
-![Profile Overview](screenshots/Screenshot-Profile-1.jpg)
+![Screenshot Profile 1](screenshots/Screenshot%20Profile%201.png)
 
 The profile page shows a quick summary of the user.
 
@@ -228,7 +228,7 @@ The profile page shows a quick summary of the user.
 
 #### Basic Info Edit
 
-![Edit Basic Info](screenshots/Edit-Section.jpg)
+![Edit Section](screenshots/Edit%20Section.png)
 
 Users can edit core profile fields:
 
@@ -244,7 +244,7 @@ Each group is separated into clear cards to make editing simple.
 
 #### Lifestyle Tab
 
-![Lifestyle](screenshots/Screenshot-profile-2.jpg)
+![Screenshot Profile 3](screenshots/Screenshot%20Profile%203.png)
 
 The lifestyle section lets users define how they live.
 
@@ -331,7 +331,7 @@ A **Start Finding Friends** button takes the user into the actual friend finder.
 
 ### Friend Finder Swiping
 
-![Friend Finder Swiping](screenshots/Screenshot-Friend-Finder-Page.jpg)
+![Screenshot Compatibility page](screenshots/Screenshot%20Compatibility%20page.png)
 
 The main friend finder page displays swipeable cards.
 
@@ -355,7 +355,7 @@ The main friend finder page displays swipeable cards.
 
 ### Friend Details
 
-![Friend Details 1](screenshots/Screenshot-Friend-finder-Details-1.jpg)
+![Screenshot Friend Finder Page](screenshots/Screenshot%20Friend%20Finder%20Page.png)
 
 The detailed profile modal of a potential friend includes:
 
@@ -369,7 +369,7 @@ The detailed profile modal of a potential friend includes:
 - “About” section with a short self‑description.
 - Button to **Connect** with the user.
 
-![Friend Details 2](screenshots/Screenshot-friend-finder-details-2.jpg)
+![Screenshot Friend finder Details 1](screenshots/Screenshot%20Friend%20finder%20Details%201.png)
 
 The extended view shows:
 
