@@ -251,19 +251,7 @@ The extended view shows:
 ##Friend Finder Dashboard
 ![Screenshot Friend Finder Page](screenshots/Screenshot%20Friend%20Finder%20Page.png)
 
-## AI Matching Logic
 
-The compatibility score is computed by combining several factors:
-
-- **Interest Similarity:** compares overlapping interests and “Things I Love”.
-- **Location Proximity:** checks whether users share the same city or are geographically close.
-- **Age Compatibility:** rewards small age differences and penalizes large gaps.
-- **Occupation Alignment:** checks for similar roles or study areas.
-- **Bio Similarity:** basic text similarity on the “About Me” fields (e.g., using keyword overlap or cosine similarity on embeddings).
-
-A weighted formula then converts these components into a single percentage that is displayed on both the swipe card and the details page.
-
----
 ### Profile Overview
 
 ![Screenshot Profile 1](screenshots/Screenshot%20Profile%201.png)
@@ -370,7 +358,19 @@ The account tab summarizes account‑level information.
 
 ---
 
+## AI Matching Logic
 
+The compatibility score is computed by combining several factors:
+
+- **Interest Similarity:** compares overlapping interests and “Things I Love”.
+- **Location Proximity:** checks whether users share the same city or are geographically close.
+- **Age Compatibility:** rewards small age differences and penalizes large gaps.
+- **Occupation Alignment:** checks for similar roles or study areas.
+- **Bio Similarity:** basic text similarity on the “About Me” fields (e.g., using keyword overlap or cosine similarity on embeddings).
+
+A weighted formula then converts these components into a single percentage that is displayed on both the swipe card and the details page.
+
+---
 
 ## Future Improvements
 
