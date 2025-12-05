@@ -290,7 +290,7 @@ Each group is separated into clear cards to make editing simple.
 
 #### Lifestyle Tab
 
-![Screenshot Profile 2](screenshots/Screenshot%20Profile%202.png)
+![Screenshot profile 2](screenshots/Screenshot%20profile%202.png)
 
 The lifestyle section lets users define how they live.
 
